@@ -1,11 +1,5 @@
 name = "gpt-web"
-type = "javascript"
-
-main = "src/main.ts"
-
-account_id = "06a6b5963fb5df514240dbc634d13fa0"
 
 compatibility_date = "2023-08-23"
 
-[build]
-command = "yarn install --legacy-peer-deps && yarn build"
+pages_build_output_dir = "./dist"
